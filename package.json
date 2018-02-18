@@ -1,0 +1,36 @@
+{
+  "name": "node-push-notification",
+  "version": "0.1.0",
+  "description": "multi-platform capable push notifications using Node.js",
+  "author": "Continuation Labs <contact@continuation.io> (http://continuation.io/)",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/continuationlabs/node-push-notification",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/continuationlabs/node-push-notification.git"
+  },
+  "bugs": {
+    "url": "https://github.com/continuationlabs/node-push-notification/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "belly-button -f",
+    "pretest": "npm run lint",
+    "test": "lab -v -a code -t 100"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "devDependencies": {
+    "belly-button": "4.x.x",
+    "cb-barrier": "1.x.x",
+    "code": "5.x.x",
+    "lab": "15.x.x"
+  },
+  "keywords": [
+    "push",
+    "notification",
+    "notifications",
+    "push notifications"
+  ]
+}
