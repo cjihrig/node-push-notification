@@ -57,13 +57,14 @@ A constructor function that takes no arguments.
   - Returns
     - The `NodePush` instance.
 
-### `NodePush.prototype.send(platform, device, message, options, callback)`
+### `NodePush.prototype.send(platform, device, message[, options][, callback])`
 
   - Arguments
     - `platform` (string) - The case insensitive platform name to send the push notification through. There must be a transport configured to handle the named platform or an exception will be thrown.
     - `device` (string) - The destination device ID of the push notification.
     - `message` (object) - An object containing the message to be sent. More details on the expected schema of this object will be included as `node-push-notification` matures.
+    - `options` (object) - An optional object for passing additional configuration to the underlying transport. This is typically used for providing platform specific options.
     - `callback(err, result)` (function) - An optional callback function that
-    passes the error and result of the send attempt.
+    passes the error and result of the send operation.
   - Returns
     - The `NodePush` instance.
