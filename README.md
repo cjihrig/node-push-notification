@@ -3,8 +3,8 @@
 [![Current Version](https://img.shields.io/npm/v/node-push-notification.svg)](https://www.npmjs.org/package/node-push-notification)
 [![Build Status via Travis CI](https://travis-ci.org/continuationlabs/node-push-notification.svg?branch=master)](https://travis-ci.org/continuationlabs/node-push-notification)
 ![Dependencies](http://img.shields.io/david/continuationlabs/node-push-notification.svg)
+[![belly-button-style](https://img.shields.io/badge/eslint-bellybutton-4B32C3.svg)](https://github.com/continuationlabs/belly-button)
 
-[![belly-button-style](https://cdn.rawgit.com/continuationlabs/belly-button/master/badge.svg)](https://github.com/continuationlabs/belly-button)
 
 `node-push-notification` is a library for sending push notifications from Node.js. Because
 platforms (iOS, Android, AWS SNS, etc.) require different setups, `node-push-notification`
